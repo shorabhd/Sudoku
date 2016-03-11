@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="35dip" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*" >
+        <TableRow>
+            <Button
+                android:id="@+id/tutorial"
+                android:text="@string/tutorial"
+                android:textColor="#000000"
+                android:background="@android:color/transparent">
+            </Button>
+            <Button
+                android:id="@+id/resume"
+                android:textColor="#000000"
+                android:text="@string/resume_label"
+                android:background="@android:color/transparent">
+            </Button>
+            <Button
+                android:id="@+id/new_button"
+                android:text="@string/new_game_label"
+                android:textColor="#000000"
+                android:background="@android:color/transparent">
+            </Button>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/about_button"
+                android:text="@string/about_label"
+                android:textColor="#000000"
+                android:background="@android:color/transparent">
+            </Button>
+
+            <Button
+                android:id="@+id/upgrade"
+                android:text="@string/upgrade_label"
+                android:textColor="#000000"
+                android:background="@android:color/transparent">
+            </Button>
+
+            <Button
+                android:id="@+id/highscores"
+                android:text="@string/high_scores_label"
+                android:layout_column="2"
+                android:textColor="#000000"
+                android:background="@android:color/transparent">
+            </Button>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/exit_button"
+                android:text="@string/exit_label"
+                android:layout_span="3"
+                android:textColor="#000000"
+                android:background="@android:color/transparent">
+            </Button>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
